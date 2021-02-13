@@ -1,11 +1,9 @@
 import React from "react";
+import { useRoutes } from "hookrouter";
 import "./style.css";
+import Routers from "./routers";
 
 export default function App() {
-  return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
+  const routeResult = useRoutes(Routers);
+  return <>{routeResult}</>;
 }
