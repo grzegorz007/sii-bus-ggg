@@ -1,9 +1,16 @@
 import React from "react";
+import Components from "../components";
+
+const { Naglowek, Nawigacja, Stopka, Artykuly } = Components;
+
 const Aktualnosci = () => {
   return (
-    <div>
-      <h1>Aktualnosci</h1>
-    </div>
+    <>
+      <Naglowek />
+      <Nawigacja />
+      <Artykuly />
+      <Stopka />
+    </>
   );
 };
 export default Aktualnosci;

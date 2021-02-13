@@ -5,5 +5,9 @@ import Routers from "./routers";
 
 export default function App() {
   const routeResult = useRoutes(Routers);
-  return <>{routeResult}</>;
+  return (
+    <>
+      {routeResult}
+    </>
+  );
 }

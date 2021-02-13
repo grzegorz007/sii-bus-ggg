@@ -5,16 +5,16 @@ const { Aktualnosci, MojeZamowienia, MojProfil, NaszeMenu } = Pages;
 
 const Routers = {
   "/": () => {
-    <Aktualnosci />;
+    return <Aktualnosci />;
   },
   "/moje-zamowienia": () => {
-    <MojeZamowienia />;
+    return <MojeZamowienia />;
   },
   "/moj-profil": () => {
-    <MojProfil />;
+    return <MojProfil />;
   },
   "/nasze-menu": () => {
-    <NaszeMenu />;
+    return <NaszeMenu />;
   }
 };
 export default Routers;
