@@ -1,31 +1,29 @@
-import Wydarzenie from "./Wydarzenie";
-import Stopka from "./Stopka";
-import PreferencjeZywieniowe from "./PreferencjeZywieniowe";
-import Nawigacja from "./Nawigacja";
-import Naglowek from "./Naglowek";
-import MojeWydarzenia from "./MojeWydarzenia";
-import Komentarze from "./Komentarze";
-import Komentarz from "./Komentarz";
-import Informacje from "./Informacje";
-import DostepneMenu from "./DostepneMenu";
-import Artykul from "./Artykul";
 import Alergeny from "./Alergeny";
+import Artykul from "./Artykul";
 import Artykuly from "./Artykuly";
+import DostepneMenu from "./DostepneMenu";
+import Informacje from "./Informacje";
+import Komentarze from "./Komentarze";
+import MojeWydarzenia from "./MojeWydarzenia";
+import Naglowek from "./Naglowek";
+import Nawigacja from "./Nawigacja";
+import PreferencjeZywieniowe from "./PreferencjeZywieniowe";
+import Stopka from "./Stopka";
 import Wydarzenia from "./Wydarzenia";
+import Wydarzenie from "./Wydarzenie";
 
 export default {
-  Wydarzenie: Wydarzenie,
-  Stopka: Stopka,
-  PreferencjeZywieniowe: PreferencjeZywieniowe,
-  Nawigacja: Nawigacja,
-  Naglowek: Naglowek,
-  MojeWydarzenia: MojeWydarzenia,
-  Komentarze: Komentarze,
-  Komentarz: Komentarz,
-  Informacje: Informacje,
-  DostepneMenu: DostepneMenu,
-  Artykul: Artykul,
   Alergeny: Alergeny,
+  Artykul: Artykul,
   Artykuly: Artykuly,
-  Wydarzenia: Wydarzenia
+  DostepneMenu: DostepneMenu,
+  Informacje: Informacje,
+  Komentarze: Komentarze,
+  MojeWydarzenia: MojeWydarzenia,
+  Naglowek: Naglowek,
+  Nawigacja: Nawigacja,
+  PreferencjeZywieniowe: PreferencjeZywieniowe,
+  Stopka: Stopka,
+  Wydarzenia: Wydarzenia,
+  Wydarzenie: Wydarzenie
 };

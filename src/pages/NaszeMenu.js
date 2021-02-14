@@ -1,9 +1,22 @@
 import React from "react";
+
+import Components from "../components";
+
+import useSiiBus from "../hooks/useSiiBus";
+
+const { DostepneMenu, Wydarzenia } = Components;
+
 const NaszeMenu = () => {
+  const siiBus = useSiiBus();
+
   return (
-    <div>
+    <section className="NaszeMenu">
       <h1>Nasze Menu</h1>
-    </div>
+      <button onClick={siiBus.onClick} />
+      <Wydarzenia {...siiBus} />
+      <DostepneMenu />
+    </section>
   );
 };
+
 export default NaszeMenu;
